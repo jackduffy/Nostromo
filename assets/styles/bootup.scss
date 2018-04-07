@@ -1,0 +1,249 @@
+.boot-up {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #833B41;
+
+  .text {
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .decoration {
+      width: 325px;
+      height: 75px;
+      position: absolute;
+      right: 0;
+      top: -75px;
+      border-top: solid 10px white;
+      border-right: solid 10px white;
+
+      .a {
+        position: absolute;
+        top: 0;
+        left: 27%;
+        width: 50px;
+        height: 20px;
+        border-right: solid 10px white;
+        border-bottom: solid 10px white;
+
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: -50px;
+          height: 50px;
+          width: 10px;
+          background-color: white;
+        }
+      }
+
+      .b {
+        width: 10px;
+        height: 100%;
+        background-color: white;
+        position: absolute;
+        left: 68%;
+        top: 0;
+      }
+
+      .c {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 35px;
+        height: 20px;
+        border-left: solid 10px white;
+        border-bottom: solid 10px white;
+      }
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: -23px;
+        left: -30px;
+        width: 10px;
+        height: 110px;
+        background-color: white;
+        transform: rotate(45deg);
+      }
+
+      &:after {
+        content: '';
+      	position: absolute;
+      	top: -24px;
+      	left: -10px;
+      	background-color: #833B41;
+      	width: 20px;
+      	height: 20px;
+      	transform: rotate(45deg);
+      }
+    }
+
+    h1 {
+      font-family:'NK57', sans-serif;
+      font-size: 120px;
+      line-height: 105px;
+      color: white;
+      font-weight: bolder;
+      text-transform: uppercase;
+      border: 10px solid white;
+      margin: 0;
+      letter-spacing: -5px;
+      padding-right: 10px;
+    }
+
+    registry {
+      font-family:'NK57', sans-serif;
+      font-size: 120px;
+      width: 600px;
+      line-height: 75px;
+      color: white;
+      font-weight: bolder;
+      text-transform: uppercase;
+      margin: 0;
+      transform: scale(1.25, 1);
+      display: block;
+      transform-origin: left;
+      padding: 15px 0 10px;
+      border-left: solid 10px white;
+      border-bottom: solid 10px white;
+      border-right: solid 10px white;
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        background-color: white;
+        height: 10px;
+        width: 200px;
+      }
+    }
+  }
+
+  .loading {
+    position: fixed;
+    width: 696.5px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+
+    p {
+      font-family:'NK57', sans-serif;
+      color: white;
+      border: 2.5px solid white;
+      padding: 2.5px 5px;
+      display: inline-block;
+    }
+
+    .progress {
+      width: 100%;
+
+      .bar {
+        display: inline-block;
+        vertical-align: top;
+        width: calc(2.5% - 9.4px);
+        height: 25px;
+        background-color: white;
+        margin-right: 2px;
+        transition: 0.1;
+        opacity: 0;
+      }
+
+      #progress-bar-0 {transition-delay: 0.1s;}
+      #progress-bar-1 {transition-delay: 2.1s;}
+      #progress-bar-2 {transition-delay: 2.2s;}
+      #progress-bar-3 {transition-delay: 2.3s;}
+      #progress-bar-4 {transition-delay: 2.3s;}
+      #progress-bar-5 {transition-delay: 2.35s;}
+      #progress-bar-6 {transition-delay: 2.5s;}
+      #progress-bar-7 {transition-delay: 2.64s;}
+      #progress-bar-8 {transition-delay: 2.65s;}
+      #progress-bar-9 {transition-delay: 2.66s;}
+      #progress-bar-10 {transition-delay: 2.7s;}
+      #progress-bar-11 {transition-delay: 2.8s;}
+      #progress-bar-12 {transition-delay: 2.9s;}
+      #progress-bar-13 {transition-delay: 2.91s;}
+      #progress-bar-14 {transition-delay: 2.92s;}
+      #progress-bar-15 {transition-delay: 3s;}
+      #progress-bar-16 {transition-delay: 3s;}
+      #progress-bar-17 {transition-delay: 3s;}
+      #progress-bar-18 {transition-delay: 3s;}
+      #progress-bar-19 {transition-delay: 3s;}
+      #progress-bar-20 {transition-delay: 3s;}
+      #progress-bar-21 {transition-delay: 3s;}
+      #progress-bar-22 {transition-delay: 3s;}
+      #progress-bar-23 {transition-delay: 3s;}
+      #progress-bar-24 {transition-delay: 3s;}
+      #progress-bar-25 {transition-delay: 3s;}
+      #progress-bar-26 {transition-delay: 3s;}
+      #progress-bar-27 {transition-delay: 3s;}
+      #progress-bar-28 {transition-delay: 3s;}
+      #progress-bar-29 {transition-delay: 3s;}
+      #progress-bar-30 {transition-delay: 3s;}
+      #progress-bar-31 {transition-delay: 3s;}
+      #progress-bar-32 {transition-delay: 3s;}
+      #progress-bar-33 {transition-delay: 3s;}
+      #progress-bar-34 {transition-delay: 3s;}
+      #progress-bar-35 {transition-delay: 3s;}
+      #progress-bar-36 {transition-delay: 3s;}
+      #progress-bar-37 {transition-delay: 3s;}
+      #progress-bar-38 {transition-delay: 4s;}
+      #progress-bar-39 {transition-delay: 4s;}
+      #progress-bar-40 {transition-delay: 4s;}
+      #progress-bar-41 {transition-delay: 4s;}
+      #progress-bar-42 {transition-delay: 4s;}
+      #progress-bar-43 {transition-delay: 4s;}
+      #progress-bar-44 {transition-delay: 4s;}
+      #progress-bar-45 {transition-delay: 4s;}
+      #progress-bar-46 {transition-delay: 4s;}
+      #progress-bar-47 {transition-delay: 4.1s;}
+      #progress-bar-48 {transition-delay: 4.2s;}
+      #progress-bar-49 {transition-delay: 5s;}
+    }
+  }
+}
+
+
+.booted {
+  background-color: black;
+
+  .text {
+    .decoration {
+      opacity: 0;
+    }
+
+    h1, registry {
+      color: #4CFF88;
+      border: solid 10px transparent;
+      text-shadow: 0px 0px 10px #4CFF88;
+
+      &:after {
+        content: none;
+      }
+    }
+
+
+  }
+
+  .loading {
+    p {
+      color: #4CFF88;
+      border: solid 2.5px transparent;
+      text-shadow: 0px 0px 10px #4CFF88;
+    }
+    .progress {
+      .bar {
+        background-color: #4CFF88 !important;
+      }
+    }
+  }
+
+
+
+
+}
